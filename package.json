@@ -3,6 +3,7 @@
     "displayName": "julia-light",
     "description": "Julia light theme based on jupyter notebook default light theme",
     "version": "0.0.1",
+    "publisher": "Mohammad Farshchin",
     "engines": {
         "vscode": "^1.62.0"
     },
@@ -17,5 +18,10 @@
                 "path": "./themes/Julia Light-color-theme.json"
             }
         ]
+    },
+    "homepage": "https://github.com/mfarshchin/vscode-julia-light-theme.git",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mfarshchin/vscode-julia-light-theme.git"
     }
 }
