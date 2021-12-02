@@ -4,7 +4,7 @@
 	"colors": {
 		"editor.background": "#f5f5f5",
 		"editor.foreground": "#333333",
-        "list.activeSelectionIconForeground": "#fff"
+		"list.activeSelectionIconForeground": "#fff"
 	},
 	"tokenColors": [
 		{
@@ -15,7 +15,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#AAAAAA"
+				"foreground": "#408080"
 			}
 		},
 		{
@@ -47,7 +47,8 @@
 			"name": "Operators",
 			"scope": "keyword.operator",
 			"settings": {
-				"foreground": "#777777"
+				"foreground": "#AA23FF",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -67,7 +68,7 @@
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#7A3E9D"
+				"foreground": "#1F8A22"
 			}
 		},
 		{
@@ -78,7 +79,7 @@
 				"variable.language"
 			],
 			"settings": {
-				"foreground": "#AB6526"
+				"foreground": "#008000"
 			}
 		},
 		{
@@ -98,8 +99,7 @@
 				"support.function"
 			],
 			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#AA3731"
+				"foreground": "#2A00FF"
 			}
 		},
 		{
@@ -136,14 +136,14 @@
 				"constant"
 			],
 			"settings": {
-				"foreground": "#AB6526"
+				"foreground": "#008801"
 			}
 		},
 		{
 			"name": "Strings",
 			"scope": "string",
 			"settings": {
-				"foreground": "#448C27"
+				"foreground": "#BA2121"
 			}
 		},
 		{
@@ -164,14 +164,14 @@
 			"name": "Strings: Symbols",
 			"scope": "constant.other.symbol",
 			"settings": {
-				"foreground": "#AB6526"
+				"foreground": "#008000"
 			}
 		},
 		{
 			"name": "Punctuation",
 			"scope": "punctuation",
 			"settings": {
-				"foreground": "#777777"
+				"foreground": "#BA2121"
 			}
 		},
 		{
@@ -408,6 +408,66 @@
 			"scope": "meta.diff.header.to-file",
 			"settings": {
 				"foreground": "#434343"
+			}
+		},
+		{
+			"name": "using, import",
+			"scope": [
+				"keyword.control.using.julia",
+				"keyword.control.import.julia"
+			],
+			"settings": {
+				"foreground": "#007B00",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "function",
+			"scope": [
+				"keyword.other.julia",
+				"keyword.control.julia",
+			],
+			"settings": {
+				"foreground": "#007B00",
+				"fontStyle": "bold",
+			}
+		},
+		{
+			"name": "function end",
+			"scope": [
+				"keyword.control.end.julia",
+			],
+			"settings": {
+				"foreground": "#007B00",
+				"fontStyle": "bold",
+			}
+		},
+		{
+			"name": "source",
+			"scope": [
+				"source.julia",
+			],
+			"settings": {
+				"foreground": "#000000"
+			}
+		},
+		{
+			"name": "function macro",
+			"scope": [
+				"support.function.macro.julia",
+			],
+			"settings": {
+				"foreground": "#FF5400",
+				"fontStyle": "italic bold"
+			}
+		},
+		{
+			"name": "operator relation type",
+			"scope": [
+				"keyword.operator.relation.types.julia",
+			],
+			"settings": {
+				"foreground": "#1F8A22"
 			}
 		}
 	]
